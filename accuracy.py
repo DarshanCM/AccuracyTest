@@ -1,10 +1,10 @@
 import numpy as np
 from sklearn.metrics import accuracy_score
 
-y = open("test.txt", "r")
+y = open("a.txt", "r")
 y_pred = y.read().split(',')
 
-x = open ("foraccuracy.txt", 'r')
+x = open ("b.txt", 'r')
 x_true=  x.read().split(',')
 
 
